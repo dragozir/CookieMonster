@@ -1363,7 +1363,7 @@ CM.Disp.AddMenuStats = function(title) {
 			stats.appendChild(listing('Rewards of Popping',  popAllFrag));
 			
 			var popAllTotalFragment = document.createDocumentFragment();
-			popAllTotalFragment.appendChild(document.createTextNode(Beautify(Cm.Cache.WrinkBank + Game.cookies) + ' '));
+			popAllTotalFragment.appendChild(document.createTextNode(Beautify(CM.Cache.WrinkBank + Game.cookies) + ' '));
 			stats.appendChild(listing('Total After Popping', popAllTotalFragment));
 		}
 	}
